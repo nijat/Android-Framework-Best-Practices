@@ -14,12 +14,15 @@ Retrofit  - http://square.github.io/retrofit/  (Network)
         compile 'com.squareup.okhttp3:okhttp:3.3.1'
         
 Fabric (Realtime Analytics Tool)
-        ```compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
+        
+        compile('com.crashlytics.sdk.android:crashlytics:2.6.8@aar') {
             transitive = true;
-        }```
+        }
+        
 Permission Checker - Dexter -https://github.com/Karumi/Dexter
-        ```compile 'com.karumi:dexter:4.1.0' ```
+        
+        compile 'com.karumi:dexter:4.1.0'
        
 # Awesome Plugins for Android Studio
-     Butter Knife - http://jakewharton.github.io/butterknife/ Android plugin https://github.com/avast/android-butterknife-zelezny
-     Json To Object POJO - https://github.com/robohorse/RoboPOJOGenerator
+Butter Knife - http://jakewharton.github.io/butterknife/ Android plugin https://github.com/avast/android-butterknife-zelezny
+Json To Object POJO - https://github.com/robohorse/RoboPOJOGenerator
