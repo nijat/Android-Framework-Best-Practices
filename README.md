@@ -22,8 +22,9 @@
 * Permission Checker - Dexter -https://github.com/Karumi/Dexter
         
         compile 'com.karumi:dexter:4.1.0'
-* Stetho - inspect DB, network traffic
-        Stetho is a debug bridge for Android applications from Facebook that integrates with the Chrome desktop browser's Developer Tools. With Stetho you can easily inspect your application, most notably the network traffic. It also allows you to easily inspect and edit SQLite databases and the shared preferences in your app. You should, however, make sure that Stetho is only enabled in the debug build and not in the release build variant.
+* Stetho - inspect DB, network traffic - http://facebook.github.io/stetho/
+
+Stetho is a debug bridge for Android applications from Facebook that integrates with the Chrome desktop browser's Developer Tools. With Stetho you can easily inspect your application, most notably the network traffic. It also allows you to easily inspect and edit SQLite databases and the shared preferences in your app. You should, however, make sure that Stetho is only enabled in the debug build and not in the release build variant.
           
           compile 'com.facebook.stetho:stetho:1.5.0' 
 
