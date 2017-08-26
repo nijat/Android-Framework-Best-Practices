@@ -2,6 +2,7 @@
 
 # Awesome Libraries
 Butter Knife - http://jakewharton.github.io/butterknife/ ( XML Binding)
+
        ``` compile 'com.jakewharton:butterknife:8.8.0'
         annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.0'  ```
 
