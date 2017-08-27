@@ -1,0 +1,36 @@
+public class DialogUtils {
+
+    private static final String TAG = "DialogUtils";
+    private static ProgressDialog progressDialog;
+
+    public static void showProgressDialog(Activity activity, String message) {
+        try {
+            if (!activity.isFinishing()) {
+                if (progressDialog == null) {
+                    progressDialog = new ProgressDialog(activity);
+                    progressDialog.setMessage(message);
+                    progressDialog.setCancelable(false);
+                }
+                progressDialog.show();
+            }
+        }
+        catch (Exception ex){
+            Log.e(TAG, "showProgressDialog: "+ex );
+        }
+    }
+
+    public static void hideProgressDialog() {
+        try {
+            if (progressDialog != null) {
+                if (progressDialog.isShowing()) {
+                    progressDialog.dismiss();   //This is line 624!
+                }
+            }
+            progressDialog = null;
+        }
+        catch (Exception ex){
+            progressDialog = null;
+        }
+    }
+
+}
