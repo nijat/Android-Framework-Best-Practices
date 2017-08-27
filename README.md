@@ -32,3 +32,9 @@ Stetho is a debug bridge for Android applications from Facebook that integrates 
 * Butter Knife - http://jakewharton.github.io/butterknife/ Android plugin https://github.com/avast/android-butterknife-zelezny
 * Json To Object POJO - https://github.com/robohorse/RoboPOJOGenerator
 * Json To Object - https://github.com/zzz40500/GsonFormat
+
+
+# File naming, Package naming, Resource files naming, layout naming
+Read https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md
+
+
