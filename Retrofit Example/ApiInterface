@@ -1,0 +1,11 @@
+public interface ApiInterface {
+
+    //Get Method Response is JSON Object  for example http://api.example.com/registataion/o13ioifj172381jasdk
+    @GET("registeration/{token}")
+    Call<JSONObject> register(@Path("token") String token);
+
+    /POST METHOD
+    @POST("/api/userlogin")
+    Call<JSONObject> getUserLogin(@Field("username") String uname,@Field("password") String password);
+
+}
