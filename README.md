@@ -34,7 +34,7 @@ Stetho is a debug bridge for Android applications from Facebook that integrates 
 * Json To Object - https://github.com/zzz40500/GsonFormat
 
 
-# File naming, Package naming, Resource files naming, layout naming
+# File, Package, Resource files, Layout naming
 Read https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md
 
 
