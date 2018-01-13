@@ -33,6 +33,9 @@ Stetho is a debug bridge for Android applications from Facebook that integrates 
 
 * EventBus - Android optimized event bus that simplifies communication between Activities, Fragments, Threads, Services, etc. Less code, better quality. - https://github.com/greenrobot/EventBus
 
+* Secret your properties such as url -https://github.com/novoda/gradle-build-properties-plugin
+
+
 #UI Libraries
 
 * Alerter - https://github.com/Tapadoo/Alerter
